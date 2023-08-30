@@ -5,7 +5,7 @@ const Portfolio = () => {
   const [inputText, setInputText] = useState('');
   const [conversation, setConversation] = useState([]);
   const [loading, setloading] = useState(null);
-
+  const apiKey = process.env.NEXT_PUBLIC_CHATGPT_API_KEY
   const handleInputChange = (event) => {
     setInputText(event.target.value);
 
@@ -19,7 +19,7 @@ const Portfolio = () => {
         'https://api.openai.com/v1/chat/completions',
         {
           model: "gpt-3.5-turbo",
-          max_tokens: 100,
+          max_tokens: 200,
           temperature: 0.7,
           messages: [
             {
@@ -35,7 +35,7 @@ const Portfolio = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer ',
+            'Authorization': `Bearer ${apiKey}`,
           },
         }
       );
