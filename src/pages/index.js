@@ -35,7 +35,7 @@ const Portfolio = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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',
+            'Authorization': 'Bearer ',
           },
         }
       );
