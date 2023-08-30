@@ -41,6 +41,8 @@ const Portfolio = () => {
       );
 
       const botReply = response.data.choices[0].message.content;
+      const extractedOptions = responseData.options.map(option => option.label);
+      console.log(extractedOptions)
       setConversation([
         ...conversation,
         { role: 'user', content: inputText },
