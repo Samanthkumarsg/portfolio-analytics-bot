@@ -1,38 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Financial Portfolio Analytics Bot
+
+The Financial Portfolio Analytics Bot is a cutting-edge web application designed to provide users with intelligent insights into their investment portfolios. By leveraging the power of OpenAI's GPT-3.5 model, this bot engages in intelligent conversations, offering expert-level financial analysis and guidance tailored to each user's individual portfolio.
+
+## Features
+
+- **Intelligent Conversations:** Engage in meaningful conversations with the bot to receive personalized insights into your investment portfolio.
+- **Customizable Analysis:** The bot's responses can be customized to address specific financial questions and concerns, allowing users to gain deeper understanding and clarity.
+- **Real-time Insights:** Receive immediate analysis and recommendations, enabling users to make informed investment decisions swiftly.
+- **Interactive Interface:** The intuitive user interface offers a seamless experience, making it easy for users to input portfolio details and retrieve valuable insights.
+
+## Usage
+
+1. Clone this repository to your local machine.
+2. Install the required dependencies using `npm install`.
+3. Obtain your OpenAI GPT-3.5 API key and replace `'YOUR_OPENAI_API_KEY'` in the code.
+4. Run the app using `npm run dev` and navigate to `http://localhost:3000`.
 
 ## Getting Started
 
-First, run the development server:
+1. Input your financial portfolio details or questions into the bot's interface.
+2. Engage in a conversation with the bot, seeking insights and analysis.
+3. Explore the bot's expert responses to refine your investment strategies.
+4. Validate and supplement the bot's suggestions with your financial expertise.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Disclaimer
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Financial Portfolio Analytics Bot is designed for educational and informational purposes only. The analysis and insights provided by the bot should not be considered financial advice, and users are encouraged to consult with qualified financial professionals before making any investment decisions.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## License
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+This project is licensed under the [MIT License](LICENSE).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+*Disclaimer: This project is not affiliated with or endorsed by OpenAI. The project uses OpenAI's GPT-3.5 model for text generation.*
